@@ -1,0 +1,130 @@
+.parentContainer {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    
+}
+
+.containerProducto {
+    background-color: white;
+    width: 60rem;
+    min-height: 60vh;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    
+}
+
+.topBarProducto  {
+    background-color: rgb(243, 243, 243);
+    padding:5px;
+    border-radius: 1rem 1rem 0 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.buttonTopBar, .buttonTopBarEliminar {
+    border:0;
+    background-color: rgb(242, 242, 242);
+    color: rgb(54, 54, 54);
+    font-weight: 400;
+    margin: 5px;
+    transition: 0.1s ease-in-out;
+}
+.buttonTopBar:hover {
+    color:rgb(25, 125, 255);
+}
+
+.buttonTopBarEliminar:hover {
+    color:rgb(235, 0, 0);
+}
+
+.botProducto {
+    display: flex;
+    border-top: 0.5px solid lightgray;
+}
+
+
+.containerProductoPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 60%;
+    min-height: 60vh;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.productoImagen {
+    max-width: 20rem;        
+    max-height: 20rem;      
+    object-fit: contain;    
+    width: auto; 
+}
+
+.productoDescripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgb(250, 250, 250);
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.containerProductoDetalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    border-left: 1px solid lightgray;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.containerProductoDetalle ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.6rem;
+
+}
+
+.productoTitle {
+    font-size:1.2rem;
+}
+
+.productoPrecio {
+    font-size: 1.8rem;
+}
+
+.envioGratis {
+    display:flex;
+    align-items: center;
+    color:rgb(0, 196, 0);
+}
+
+.envioNormal {
+    color: orange;
+}
+
+.buttonContainer {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer Button {
+    width: 50%;
+    margin-top: 2rem;
+}
+

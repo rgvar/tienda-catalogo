@@ -1,0 +1,28 @@
+.formContainer {
+    background-color: whitesmoke;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.formBase {
+    width: 30vw;
+    margin: 2rem;
+    padding: 2rem;
+    padding-top: 0.8rem;
+
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+
+    display:flex;
+    flex-direction: column;
+
+    background-color: white;
+    
+}
+
+.formTitle {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,59 @@
+* {
+    font-family: "Roboto";
+}
+
+.containerInstrumento {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding:1rem;
+    width: 60vw;
+    border-radius: 1rem;
+    transition: color 0.1s;
+}
+.containerInstrumento:hover {
+    cursor:pointer;
+    color:rgb(25, 125, 255);
+}
+
+.imgContainer {
+    max-width: 10rem;
+    max-height: 10rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instrumentoImg {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.instrumentoTitle {
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.instrumentoPrice {
+    font-size:1.5rem;
+    font-weight: 600;
+    color:black;
+}
+
+.instrumentoEnvioGratis {
+    color: rgb(0, 196, 0);
+    display:flex;
+    align-items: center;
+}
+
+.instrumentoEnvio {
+    color: orange;
+}
+
+.instrumentoCantidadVendida {
+    color:black;
+}

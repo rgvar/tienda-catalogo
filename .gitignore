@@ -1,0 +1,53 @@
+# === Archivos de sistema y temporales comunes ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+*.env
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Node.js / Frontend ===
+/Frontend/node_modules/
+/Frontend/.vite/
+/Frontend/dist/
+/Frontend/.env
+/Frontend/.env.*
+/Frontend/public/
+
+# === Java / Spring Boot backend ===
+/API-Backend/target/
+/API-Backend/.classpath
+/API-Backend/.project
+/API-Backend/.settings/
+/API-Backend/.idea/
+/API-Backend/.vscode
+/API-Backend/*.iml
+/API-Backend/build/
+
+# === Archivos de compilación Java adicionales ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Sistema de build ===
+/API-Backend/.gradle/
+/API-Backend/build/
+/API-Backend/mvnw
+/API-Backend/mvnw.cmd
+/API-Backend/.mvn/
+
+# === Archivos de lock ===
+/Frontend/package-lock.json
+/API-Backend/pom.xml.lock
+
+# === Otros posibles ===
+*.tgz
+*.zip
+*.tar.gz

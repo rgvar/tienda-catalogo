@@ -1,0 +1,74 @@
+.cartContainer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.cart {
+    background-color: white;
+
+    width: 60vw;
+    min-height: 12rem;
+
+    margin-top: 1rem;
+
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+
+    padding: 1rem;
+
+}
+
+.cartTitle {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.emptyCart {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cartItemList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cartTotalContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.cartSubtotalLabel {
+    font-size: 1rem;
+}
+
+.cartEnvioLabel {
+    font-size: 1rem;
+    margin:0;
+}
+
+.cartEnvioGratisLabel {
+    display:flex;
+    align-items: center;
+    color:rgb(0, 196, 0);
+}
+
+.cartTotalLabel {
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.cartButtonsContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.cartButtonsContainer button {
+    border: none;
+    padding: 10px;
+}

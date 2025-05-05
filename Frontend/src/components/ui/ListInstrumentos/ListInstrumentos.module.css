@@ -1,0 +1,12 @@
+.containerInstrumentosList {
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.messageList {
+    font-size: 2rem;
+}

@@ -1,0 +1,26 @@
+.editarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    gap:0;
+}
+
+.formEditarContainer {
+    position: relative;
+}
+
+.buttonVolver {
+    border: 0;
+    margin:0;
+    padding:0;
+    background-color: rgb(242, 242, 242);
+    color: rgb(54, 54, 54);
+    font-weight: 400;
+    transition: 0.1s ease-in-out;
+}
+
+.buttonVolver:hover {
+
+    color: rgb(25, 125, 255);
+}
